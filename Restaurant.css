@@ -1,0 +1,312 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Georgia, Constantia, "Lucida Bright", "DejaVu Serif", "serif";
+	margin: 0px;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#Home {
+	height: 100vh;
+	background-image: url(architecture-ceiling-chairs-262047copy.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#topHome {
+	display: flex;
+	height: 30%;
+	justify-content: space-between;
+	margin: 3% 5% 0% 8%;
+}
+
+#logo {
+	background-color: white; 
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+}
+
+#navbar {
+	font-size: 22px;
+	display: flex;
+	margin-right: 30px;
+}
+
+.navBarLink {
+	padding: 15px;
+	height: 15%;
+	margin: 0px 10px;
+}
+
+#reserveButton {
+	margin-top: 10px;
+	margin-left: 30px;
+	height: 25px;
+	background-color:rgba(0,0,0,0.70);
+	border: 1px solid white;
+	padding: 4px 25px;
+}
+
+#bottomHome {
+	margin: 0px 5% 5%;
+	width: 60%;
+}
+
+#homeHeader {
+	font-size: 59px;
+}
+
+#secondReserve {
+	font-size: 22px;
+	height: 25px;
+	background-color:rgba(0,0,0,0.70);
+	border: 1px solid white;
+	padding: 4px 25px;
+}
+
+.block {
+	height: 500px;
+	display: flex;
+}
+
+.textSection {
+	width: 50%;
+	background-color: black;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#rightImage {
+	width: 50%;
+	background-image: url(beef-cuisine-delicious-299347.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#leftImage {
+	width: 50%;
+	background-image: url(pexels-photo-1267320.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.textSectionParagraph {
+	font-size: 22px;
+	width: 80%;
+	margin: 0% 10%;
+	line-height: 1.5em;
+}
+
+.textSectionHeader {
+	font-size: 33px;
+	width: 80%;
+	margin: 0% 10% 6%;
+}
+
+#info {
+	height: 161px;
+	display: flex;
+	background-color: black;
+}
+
+.infoBlock {
+	border: 3px solid white;
+	width: 50%;
+	padding: 20px;
+}
+
+.italicHeader {
+	font-size: 39px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+.blockText {
+	font-size: 22px;
+	margin: 0px;
+	margin-left: 20px;
+}
+
+#linkText {
+	display: flex;
+	height: 121px;
+	background-color: black;
+	border: 3px solid white;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 25px;
+	align-items: center;
+	justify-content: center;
+}
+
+#linkBox {
+	height: 121px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#facebook {
+	background-image: url(facebook.jpg);
+	height: 45px;
+	width: 72px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#twitter {
+	background-image: url(twitter.jpg);
+	height: 45px;
+	width: 72px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#instagram {
+	background-image: url(instagram.jpg);
+	height: 45px;
+	width: 72px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+@media (max-width: 981px){
+	
+	#navbar {
+		font-size: 17px;
+	}
+	
+	.navBarLink {
+		padding: 10px;
+		margin: 0px 7px;
+	}
+	
+	#reserveButton {
+		margin-top: 6px;
+		margin-left: 15px;
+		height: 22px;
+	}
+	
+	#topHome {
+		display: flex;
+		height: 30%;
+		justify-content: space-between;
+		margin: 3% 2% 0%;
+	}
+	
+	.block {
+		flex-direction: column;
+		height: auto;
+	}
+	
+	.textSection {
+		width: 100%;
+		height: 350px;
+	}
+	
+	#rightImage{
+		width: 100%;
+		height: 300px;
+	}
+	
+	#leftImage{
+		width: 100%;
+		height: 300px;
+	}
+	
+	#secondBlock {
+		flex-direction: column-reverse;
+	}
+	
+	#info {
+		flex-direction: column;
+		height: auto;
+	}
+	
+	.infoBlock {
+		width: 99.2%;
+		padding: 0px;
+		background-color: black;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: auto;
+	}
+}
+
+@media (max-width: 697px){
+	
+	#navbar{
+		flex-direction: column;
+		margin: 0px;
+		margin-right: 40px;
+		font-size: 20px;
+	}
+	
+	.navBarLink {
+		margin: 8px 0px;
+	}
+	
+	#reserveButton {
+		margin: 0px;
+		margin-top: 15px;
+	}
+	
+	#topHome {
+		margin: 0px;
+		margin-top: 50px;
+	}
+	
+	#logo {
+		margin-left: 20px;
+	}
+	
+	#homeHeader {
+		font-size: 40px;
+	}
+	
+	#bottomHome {
+		margin: 0px;
+		width: 90%;
+		margin-bottom: 60px;
+		margin-left: 15px;
+	}
+	
+	.textSection {
+		width: 100%;
+		height: 450px;
+	}
+	
+	#rightImage{
+		width: 100%;
+		height: 350px;
+	}
+	
+	#leftImage{
+		width: 100%;
+		height: 350px;
+	}
+	
+	.infoBlock{
+		width: 98.4%;
+	}
+}
